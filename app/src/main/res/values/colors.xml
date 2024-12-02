@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    changed-->
+    <color name="blue_only">#192024</color>
+    <color name="colorOnPrimary">#222222</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#F6F6F6</color>
+    <color name="colorPrimary2">#EEF0F2</color>
+    <color name="view_line_color">#CFD8DC</color>
+    <color name="colorPrimaryVariant">#18242f</color>
+
+
+    <!--night color primary-->
+    <!--night color secondary-->
+    <color name="colorSecondary">#18242F</color>
+    <color name="colorSecondaryVariant">#FF018786</color>
+    <!--night hint text color-->
+    <color name="hint_text_color">#37474f</color>
+    <!--    edittext bottom line color-->
+
+    <color name="textcolor_gray">#9595a1</color>
+    <color name="textcolor_black">#111518</color>
+    <color name="btn_start">#6acfa4</color>
+    <!--    <color name="btn_end">#6e7af2</color>-->
+    <color name="btn_end">#3eb7d2</color>
+    <color name="btn_ripple">#919AF3</color>
+    <color name="black">#FFFFFF</color>
+    <color name="orangey_red">#ff3a3a</color>
+    <color name="green_color">#1CBA00</color>
+
+
+    <color name="white_only">#818181</color>
+    <color name="edt_with_alpha">#42818181</color>
+    <color name="black_only">#000000</color>
+
+    <color name="ic_bg">#F0F4F4</color>
+    <color name="blackTransperent">#70000000</color>
+    <color name="white_only_20">#70FFFFFF</color>
+    <color name="blue_only_70">#DADEE1</color>
+
+    <color name="graph_line_color">#818181</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black_forever">#222222</color>
+
+</resources>

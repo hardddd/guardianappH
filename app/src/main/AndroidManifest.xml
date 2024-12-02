@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.GuardianApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.CodeSetupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.BiometricSetupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Specify your callback scheme and host -->
+                <data
+                    android:host="id.stage.kidsxap.com.au"
+                    android:scheme="https"
+                    android:pathPrefix="/oauth-callback"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
